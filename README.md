@@ -79,7 +79,6 @@ and distribution of magnitude. Because of this fact, they
 are naturally adaptable to variation in color and lighting
 fluctuations. This fact witnesses their robustness in visual
 data.
-
 <div style="text-align: center">
   <img src="materials/Hog-features-on-random-images.png" alt="Your image description">
   <p>Hog features on random images</p>
@@ -102,15 +101,33 @@ data.
 ## 2. Grid Search find optimal parameters
 
 # V. Results & Summary
-| **Model**                    |         **Dataset**          |
-|:-----------------------------|:----------------------------:|
-| Logistic Regression          | PCA / Original data with HOG |
-| Decision Tree                | PCA / Original data with HOG |
-| Random Forest                | PCA / Original data with HOG |
-| Support Vector Machine (SVM) | PCA / Original data with HOG |
-| Multi-layer Perceptron (MLP) | PCA / Original data with HOG |
-| XGBoost Classifier           | PCA / Original data with HOG |
-| CNN + HOG Feature Extractor  |    Original data (Images)    |
+## 1. With PCA dataset
+
+| **Model**                    |  **Accuracy** | **Precision** |**Recall**|**F1**|
+|:-----------------------------|:----------------------------:|:-:|:-:|:-:|
+| Logistic Regression          |||||
+| Decision Tree                |||||
+| Random Forest                |||||
+| Support Vector Machine (SVM) |||||
+| Multi-layer Perceptron (MLP) |||||
+| XGBoost Classifier           |||||
+
+
+## 2. Original Dataset with HOG features 
+
+| **Model**                    |  **Accuracy** | **Precision** |**Recall**|**F1**|
+|:-----------------------------|:----------------------------:|:-:|:-:|:-:|
+| Logistic Regression          |||||
+| Decision Tree                |||||
+| Random Forest                |||||
+| Support Vector Machine (SVM) |||||
+| Multi-layer Perceptron (MLP) |||||
+| XGBoost Classifier           |||||
+
+## 3. CNN Model with HOG Features
+| **Model**                    |  **Accuracy** | **Precision** |**Recall**|**F1**|
+|:-----------------------------|:----------------------------:|:-:|:-:|:-:|
+| CNN Model + HOG         |||||
 
 # VI. Future Works
 
